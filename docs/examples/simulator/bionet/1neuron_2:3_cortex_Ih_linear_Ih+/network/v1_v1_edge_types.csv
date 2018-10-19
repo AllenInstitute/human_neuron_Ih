@@ -1,0 +1,3 @@
+edge_type_id target_query source_query weight_max distance_range params_file set_params_function delay target_sections weight_function weight_sigma
+100 level_of_detail=='biophysical'&ei=='e' ei=='i' 0.00018 "[0.0, 1e+20]" GABA_InhToExc.json exp2syn 2.0 "['somatic', 'basal', 'apical']" wmax NULL
+101 pop_name=='DG_GC' ei=='e' 0.0019 NULL instanteneousExc.json exp2syn 2.0 NULL gaussianLL 50.0

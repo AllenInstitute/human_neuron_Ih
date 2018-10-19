@@ -1,0 +1,17 @@
+jsonschema
+pandas
+numpy
+six
+h5py
+
+[bionet]
+NEURON
+
+[mintnet]
+tensorflow
+
+[pointnet]
+NEST
+
+[popnet]
+DiPDE

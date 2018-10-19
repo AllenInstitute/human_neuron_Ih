@@ -1,0 +1,92 @@
+{
+  "target_simulator": "NEURON", 
+  "config_path": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/config.json", 
+  "manifest": {
+    "$configdir": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+", 
+    "$workingdir": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet", 
+    "$INPUT_DIR": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/../../NWB_files", 
+    "$OUTPUT_DIR": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/output", 
+    "$NETWORK_DIR": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/network", 
+    "$configfname": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/config.json", 
+    "$BASE_DIR": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+", 
+    "$COMPONENT_DIR": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/../components"
+  }, 
+  "node_id_selections": {
+    "save_cell_vars": [
+      0
+    ]
+  }, 
+  "output": {
+    "spikes_hdf5_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/output/spikes.h5", 
+    "ecp_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/output/ecp.h5", 
+    "spikes_ascii_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/output/spikes.txt", 
+    "cell_vars_dir": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/output/cellvars", 
+    "output_dir": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/output", 
+    "log_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/output/log.txt"
+  }, 
+  "components": {
+    "morphologies_dir": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/../components/biophysical/morphology", 
+    "point_neuron_models_dir": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/../components/intfire", 
+    "templates_dir": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/../components/hoc_templates", 
+    "biophysical_neuron_models_dir": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/../components/biophysical/electrophysiology", 
+    "mechanisms_dir": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/../components/mechanisms", 
+    "synaptic_models_dir": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/../components/synaptic_models"
+  }, 
+  "input": [
+    {
+      "trial": "trial_0", 
+      "type": "external_spikes", 
+      "source_nodes": "LGN", 
+      "file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/../../NWB_files/lgn_spikes.nwb", 
+      "format": "nwb"
+    }
+  ], 
+  "run": {
+    "dL": 20, 
+    "calc_ecp": false, 
+    "nsteps_block": 5000, 
+    "spike_threshold": -15, 
+    "overwrite_output_dir": true, 
+    "save_cell_vars": [
+      "v"
+    ], 
+    "tstop": 10.0, 
+    "dt": 0.1, 
+    "start_from_state": false
+  }, 
+  "conditions": {
+    "celsius": 34.0, 
+    "v_init": -80
+  }, 
+  "networks": {
+    "nodes": [
+      {
+        "node_types_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/network/v1_node_types.csv", 
+        "nodes_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/network/v1_nodes.h5", 
+        "name": "V1"
+      }, 
+      {
+        "node_types_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/network/lgn_node_types.csv", 
+        "nodes_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/network/lgn_nodes.h5", 
+        "name": "LGN"
+      }
+    ], 
+    "edges": [
+      {
+        "source": "V1", 
+        "target": "V1", 
+        "edges_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/network/v1_v1_edges.h5", 
+        "edge_types_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/network/v1_v1_edge_types.csv"
+      }, 
+      {
+        "source": "LGN", 
+        "target": "V1", 
+        "edges_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/network/lgn_v1_edges.h5", 
+        "edge_types_file": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/network/lgn_v1_edge_types.csv"
+      }
+    ]
+  }, 
+  "recXelectrode": {
+    "positions": "/Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih+/../components/recXelectrodes/linear_electrode.csv"
+  }
+}

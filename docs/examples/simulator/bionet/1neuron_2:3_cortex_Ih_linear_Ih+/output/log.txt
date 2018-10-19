@@ -1,0 +1,24 @@
+INFO:root:Created a log file -- on 2018/10/19 at 12:21:07
+INFO:root:Output directory: /Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih_linear_Ih+/output -- t_wall: 0.724639 s
+INFO:root:Config file: /Volumes/Brain&Co/SCIENCE/Projects/NEURON_2_3_ALLEN/MODEL_REPOSITORY/docs/examples/simulator/bionet/1neuron_2:3_cortex_Ih_linear_Ih+/config.json -- t_wall: 0.724734 s
+INFO:root:Number of processors: 1  -- t_wall: 1.391389 s
+INFO:root:Setting up network... -- t_wall: 1.39153 s
+INFO:root:Building cells..., t_wall: 1.391606 s
+INFO:root:    Created morphologies -- t_wall: 1.650931 s
+INFO:root:    Set segment properties -- t_wall: 1.663653 s
+INFO:root:    Set segment coordinates -- t_wall: 2.133644 s
+INFO:root:    Setting up external cells... -- t_wall: 2.134481 s
+INFO:root:        LGN cells -- t_wall: 2.134609 s
+INFO:root:Cells are built! -- t_wall: 21.096813 s
+INFO:root:Initializing connections... -- t_wall: 21.096961 s
+INFO:root:    Setting connections from LGN -- t_wall: 21.097051 s
+INFO:root:Network is built! -- t_wall: 23.350841 s
+INFO:root:Setting up recordings... -- t_wall: 23.355228 s
+INFO:root:    Will save time series of individual cells -- t_wall: 23.355375 s
+INFO:root:    Will save spikes -- t_wall: 23.379634 s
+INFO:root:Recordings are set! -- t_wall: 23.402579 s
+INFO:root:Running simulation until tstop: 10.000 ms with the time step 0.100 ms -- t_wall: 23.402753 s
+INFO:root:Starting timestep: 0 at t_sim: 0.000 ms -- t_wall: 23.402827 s
+INFO:root:Block save every 5000 steps -- t_wall: 23.402887 s
+INFO:root:    step:100 t_sim:10.000 ms -- t_wall: 23.718224 s
+INFO:root:Simulation completed in 0.37 seconds  -- on 2018/10/19 at 12:21:31

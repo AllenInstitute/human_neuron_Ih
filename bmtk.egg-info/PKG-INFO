@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bmtk
+Version: 0.0.5
+Summary: Brain Modeling Toolkit
+Home-page: UNKNOWN
+Author: Kael Dai
+Author-email: kaeld at alleninstitute dot org
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: neuroscience,scientific,modeling,simulation
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Apache Software License :: 2.0
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.Topic :: Scientific/Engineering :: Bio-Informatics
+Provides-Extra: popnet
+Provides-Extra: pointnet
+Provides-Extra: bionet
+Provides-Extra: mintnet
