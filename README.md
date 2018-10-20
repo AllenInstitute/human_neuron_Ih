@@ -20,10 +20,13 @@ There are examples of building models and running simulations located in docs/ex
 
 ## Running simulations
 
+Before running the simulations it is necessary to compile the mod files. Go to the folder docs/examples/simulator/bionet/components/mechanisms and compile the mechanisms in Neuron.
+```bash
+ nrnivmodl ./modfiles
+```
 To run simualtions go to the folder /docs/examples/simulator/bionet/MODEL. In the corresponding MODEL folder set up the parameters in the config.json (defaul simulation time is 10 ms) and run using python
 ```bash
  python run_bionet.py
-
 ```
 
 The results of the simulation will be saved in the output folder. The folder cellvars will contain the file 0.h5, which will contain the somatic and dendritic voltage changes of the simulated neuron. To change the cell biophysics, for example choose a different Ih distribution go to the folder /docs/examples/simulator/bionet/components/biophysical/electrophysioogy and copy the content of the parameter json file to 478230220.json. Only 478230220.json will be used in the simulation together with 478230220.swc file in the morphology fodler.
