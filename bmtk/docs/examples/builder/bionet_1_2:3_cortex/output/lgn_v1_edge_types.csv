@@ -1,0 +1,2 @@
+edge_type_id target_query source_query weight_max distance_range params_file set_params_function delay target_sections weight_function
+100 * ei=='e' 0.01 "[1, 1e+20]" AMPA_ExcToExc.json exp2syn 2.0 ['apical'] wmax
