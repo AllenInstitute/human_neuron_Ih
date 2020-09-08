@@ -1,6 +1,6 @@
 # The Brain Modeling Toolkit
 
-A software development package for building, simulating and analyzing large-scale networks of different levels of resolution.
+A software development package for building, simulating and analyzing large-scale networks of different levels of resolution. This particular code has been used for simulating the biophysically detailed neuron model from this manuscript: https://www.sciencedirect.com/science/article/pii/S0896627318309000
 
 ## Level of Support
 We are releasing this code to the public as a tool we expect others to use. Questions concerning bugs and related issues are welcomed. We expect to address them promptly, pull requests will vetted by our staff before inclusion.
